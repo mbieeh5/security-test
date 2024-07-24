@@ -4,7 +4,7 @@ import { getDatabase, ref, push } from "firebase/database";
 import { app, auth } from "../../../../firebase";
 import React, { useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
-import styles from './InputData.module.css'; 
+import styles from './inputData.module.css';
 import { useLogin } from "@/app/context/loginContext";
 import DataUsers from "../mapData/dataUsers";
 
